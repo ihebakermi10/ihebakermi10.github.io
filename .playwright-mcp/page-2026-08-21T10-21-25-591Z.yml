@@ -1,0 +1,303 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - navigation [ref=e6]:
+          - link "Home" [ref=e7] [cursor=pointer]:
+            - /url: /
+          - link "About" [ref=e8] [cursor=pointer]:
+            - /url: /about/
+          - link "Projects" [ref=e9] [cursor=pointer]:
+            - /url: /projects/
+        - navigation [ref=e10]:
+          - link [ref=e11] [cursor=pointer]:
+            - /url: https://github.com/ihebakermi10
+          - link [ref=e15] [cursor=pointer]:
+            - /url: https://linkedin.com/in/ihebakermi10
+          - link [ref=e22] [cursor=pointer]:
+            - /url: https://huggingface.co/ihebaker10
+      - link "IA" [ref=e38] [cursor=pointer]:
+        - /url: /
+    - main [ref=e42]:
+      - generic [ref=e43]:
+        - heading "Imagination Trumps Knowledge!" [level=1] [ref=e45]:
+          - generic [ref=e46]: Imagination
+          - generic [ref=e47]: Trumps
+          - generic [ref=e48]: Knowledge!
+        - generic [ref=e49]:
+          - article [ref=e51]:
+            - link [ref=e53] [cursor=pointer]:
+              - /url: https://www.africarbon-group.com
+              - img "AfriCarbon – Real-Time Carbon Monitoring Platform" [ref=e55]
+            - generic [ref=e56]:
+              - generic [ref=e57]: Featured Project
+              - link [ref=e58] [cursor=pointer]:
+                - /url: https://www.africarbon-group.com
+                - heading "AfriCarbon – Real-Time Carbon Monitoring Platform" [level=2] [ref=e59]
+              - paragraph [ref=e60]: Built Africa's first SaaS carbon measurement and management platform, ingesting real-time data from field sensors to detect, track, and report carbon metrics. Engineered the marketing and platform site with Next.js, React, and TypeScript, and designed the sensor data pipeline that feeds live monitoring dashboards for carbon tracking at scale.
+              - generic [ref=e61]:
+                - link "GitHub" [ref=e62] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10
+                - link "Demo" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.africarbon-group.com
+          - article [ref=e69]:
+            - link [ref=e71] [cursor=pointer]:
+              - /url: https://drive.google.com/drive/folders/1rBi6VSJJSoeIK_uD9a6dv_VuDNFO7NqW?usp=sharing
+              - img "Multi-Agent AI Analytics Platform with DeepAgent, BigQuery & MCP" [ref=e73]
+            - generic [ref=e74]:
+              - generic [ref=e75]: Featured Project
+              - link [ref=e76] [cursor=pointer]:
+                - /url: https://drive.google.com/drive/folders/1rBi6VSJJSoeIK_uD9a6dv_VuDNFO7NqW?usp=sharing
+                - heading "Multi-Agent AI Analytics Platform with DeepAgent, BigQuery & MCP" [level=2] [ref=e77]
+              - paragraph [ref=e78]: Engineered a production multi-agent analytics platform using DeepAgent, LangChain, LangGraph, BigQuery, and MCP tool integrations. Applied harness-engineering practices through a root supervisor, reusable agent skills, write_todos planning, parallel subagents, structured Pydantic handoffs and lifecycle events, and streamed progress for observable execution. Built Redis/RQ job queues, persistent long-term conversation memory, secure chat history, and staged state management so complex analytics workflows can pause, resume, and scale reliably across development, staging, and production.
+              - generic [ref=e79]:
+                - link "GitHub" [ref=e80] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10
+                - link "Demo" [ref=e85] [cursor=pointer]:
+                  - /url: https://drive.google.com/drive/folders/1rBi6VSJJSoeIK_uD9a6dv_VuDNFO7NqW?usp=sharing
+          - article [ref=e87]:
+            - link [ref=e89] [cursor=pointer]:
+              - /url: https://drive.google.com/file/d/1fhPJgJ0TJ9x_1lIs-nm57qkqTCi1eSkV/view?usp=sharing
+              - 'img "Action Pilot: DeepAgent Browser Automation" [ref=e91]'
+            - generic [ref=e92]:
+              - generic [ref=e93]: Featured Project
+              - link [ref=e94] [cursor=pointer]:
+                - /url: https://drive.google.com/file/d/1fhPJgJ0TJ9x_1lIs-nm57qkqTCi1eSkV/view?usp=sharing
+                - 'heading "Action Pilot: DeepAgent Browser Automation" [level=2] [ref=e95]'
+              - paragraph [ref=e96]: Built an autonomous browser automation assistant powered by DeepAgent and MCP tools. The agent plans and executes multi-step web tasks, inspects live page state, continues workflows across follow-up prompts, and streams tool activity and results through a FastAPI interface. Packaged the agent, visible Chrome runtime, MCP server, and verification workflows with Docker Compose for reproducible end-to-end automation.
+              - generic [ref=e97]:
+                - link "GitHub" [ref=e98] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10/automation
+                - link "Demo" [ref=e103] [cursor=pointer]:
+                  - /url: https://drive.google.com/file/d/1fhPJgJ0TJ9x_1lIs-nm57qkqTCi1eSkV/view?usp=sharing
+          - article [ref=e105]:
+            - link [ref=e107] [cursor=pointer]:
+              - /url: https://drive.google.com/file/d/1mcfCHVdgkBu99vpMwyZAkixQG3Sqn5bl/view?usp=sharing
+              - img "Self-Reflective SQL Agentic Analytics with Local vLLM" [ref=e109]
+            - generic [ref=e110]:
+              - generic [ref=e111]: Featured Project
+              - link [ref=e112] [cursor=pointer]:
+                - /url: https://drive.google.com/file/d/1mcfCHVdgkBu99vpMwyZAkixQG3Sqn5bl/view?usp=sharing
+                - heading "Self-Reflective SQL Agentic Analytics with Local vLLM" [level=2] [ref=e113]
+              - paragraph [ref=e114]: Built an enterprise agentic analytics system on locally hosted models via vLLM, where SQL agents plan, reason, execute queries, and self-reflect to correct invalid SQL before re-running. Implemented real-time KPI generation agents that produce analytical logic/code from user questions and stream results to live frontend visualizations. Combined LangGraph/LangChain orchestration, hybrid RAG over structured and unstructured data, LoRA/QLoRA fine-tuning, and MLflow-based tracing, observability, evaluation, and deployment workflows.
+              - generic [ref=e115]:
+                - link "GitHub" [ref=e116] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10
+                - link "Demo" [ref=e121] [cursor=pointer]:
+                  - /url: https://drive.google.com/file/d/1mcfCHVdgkBu99vpMwyZAkixQG3Sqn5bl/view?usp=sharing
+          - article [ref=e123]:
+            - link [ref=e125] [cursor=pointer]:
+              - /url: https://drive.google.com/file/d/1qAo2h1--8Qdzf1qmDciI5JUDUEkghILU/view
+              - img "Custom Voice Assistant for Business Automation" [ref=e127]
+            - generic [ref=e128]:
+              - generic [ref=e129]: Featured Project
+              - link [ref=e130] [cursor=pointer]:
+                - /url: https://drive.google.com/file/d/1qAo2h1--8Qdzf1qmDciI5JUDUEkghILU/view
+                - heading "Custom Voice Assistant for Business Automation" [level=2] [ref=e131]
+              - paragraph [ref=e132]: Built a production-ready conversational voice assistant for business workflows using OpenAI SDK, multimodal models, and a speech-to-speech pipeline for real-time interactions. Implemented an MCP server for tool agents so the assistant can call business tools safely, then integrated APIs/webhooks for lead capture, appointment booking, notifications, and email flows with cost-efficient deployment.
+              - generic [ref=e133]:
+                - link "GitHub" [ref=e134] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10
+                - link "Demo" [ref=e139] [cursor=pointer]:
+                  - /url: https://drive.google.com/file/d/1qAo2h1--8Qdzf1qmDciI5JUDUEkghILU/view
+          - article [ref=e141]:
+            - link [ref=e143] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=slbYdKc4urI
+              - img "Front Office Multi-Agent Voice System – Eggmed" [ref=e145]
+            - generic [ref=e146]:
+              - generic [ref=e147]: Featured Project
+              - link [ref=e148] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=slbYdKc4urI
+                - heading "Front Office Multi-Agent Voice System – Eggmed" [level=2] [ref=e149]
+              - paragraph [ref=e150]: Designed and delivered an EHR-integrated voice agent platform for Eggmed, where practices build campaign blueprints with conversation and action nodes for booking, rescheduling, cancellations, FAQs, and provider messaging. Built FastAPI MCP server integrations for tool agents, combined OpenAI SDK speech-to-speech and multimodal model capabilities, and improved retrieval by 25% using encoder/embedding fine-tuning with Recall, Precision, and Faithfulness evaluation.
+              - generic [ref=e151]:
+                - link "GitHub" [ref=e152] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10
+                - link "Demo" [ref=e157] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=slbYdKc4urI
+          - article [ref=e159]:
+            - link [ref=e161] [cursor=pointer]:
+              - /url: https://github.com/ihebakermi10/chatbot-front
+              - img "Agentic Arabic Legal RAG System for Law Firms" [ref=e163]
+            - generic [ref=e164]:
+              - generic [ref=e165]: Featured Project
+              - link [ref=e166] [cursor=pointer]:
+                - /url: https://github.com/ihebakermi10/chatbot-front
+                - heading "Agentic Arabic Legal RAG System for Law Firms" [level=2] [ref=e167]
+              - paragraph [ref=e168]: Built a modular agentic legal AI system for Arabic casework using LangGraph and LangChain, combining retrieval, ranking, classification, and summarization agents. Integrated PDFs, OCR/image text, and web legal sources into chunked embeddings indexed in FAISS and GCP storage, then added self-evaluation and LLM-as-judge metrics (Recall, Precision, F1) to improve answer quality and cut legal decision and manual review time by 60%.
+              - generic [ref=e169]:
+                - link "GitHub" [ref=e170] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10/laws
+                - link "Demo" [ref=e175] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10/chatbot-front
+          - article [ref=e177]:
+            - link [ref=e179] [cursor=pointer]:
+              - /url: https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/v1/video-attachments/project_item/attachment/7547a6717b8209584b17861dedce7dc6-1739057263616/3b207d93c6c54c6780487a0ce455d4a6
+              - 'img "AgentX Hub: AI Twitter Automation Platform" [ref=e181]'
+            - generic [ref=e182]:
+              - generic [ref=e183]: Featured Project
+              - link [ref=e184] [cursor=pointer]:
+                - /url: https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/v1/video-attachments/project_item/attachment/7547a6717b8209584b17861dedce7dc6-1739057263616/3b207d93c6c54c6780487a0ce455d4a6
+                - 'heading "AgentX Hub: AI Twitter Automation Platform" [level=2] [ref=e185]'
+              - paragraph [ref=e186]: Built an AI-powered social automation platform where users create and deploy autonomous X (Twitter) agents to generate tweets from brand personas, schedule posting, reply to mentions, and send intelligent responses at scale. Engineered multi-account API handling, tweet validation, compliance-safe formatting, analytics tracking, and scalable FastAPI + Docker deployment, driving up to 80% higher audience engagement.
+              - generic [ref=e187]:
+                - link "GitHub" [ref=e188] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10
+                - link "Demo" [ref=e193] [cursor=pointer]:
+                  - /url: https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/v1/video-attachments/project_item/attachment/7547a6717b8209584b17861dedce7dc6-1739057263616/3b207d93c6c54c6780487a0ce455d4a6
+          - article [ref=e195]:
+            - link [ref=e197] [cursor=pointer]:
+              - /url: https://drive.google.com/drive/folders/1vxrqB1lJTJOB7OK1vIVxKyyGVq5KETnP?usp=sharing
+              - img "Financial Chatbot with LLM (Generative AI)" [ref=e199]
+            - generic [ref=e200]:
+              - generic [ref=e201]: Additional Featured Project
+              - link [ref=e202] [cursor=pointer]:
+                - /url: https://drive.google.com/drive/folders/1vxrqB1lJTJOB7OK1vIVxKyyGVq5KETnP?usp=sharing
+                - heading "Financial Chatbot with LLM (Generative AI)" [level=2] [ref=e203]
+              - paragraph [ref=e204]: I propose to develop an intelligent financial chatbot using long language models (LLM) and the Langchain platform. This chatbot will provide accurate financial analyses, answer user questions and offer personalized financial advice. With Langchain integration, the chatbot will be able to handle complex conversations and provide responses based on real-time data.
+              - generic [ref=e205]:
+                - link "GitHub" [ref=e206] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10
+                - link "Demo" [ref=e211] [cursor=pointer]:
+                  - /url: https://drive.google.com/drive/folders/1vxrqB1lJTJOB7OK1vIVxKyyGVq5KETnP?usp=sharing
+          - article [ref=e213]:
+            - link [ref=e215] [cursor=pointer]:
+              - /url: https://drive.google.com/drive/u/1/folders/1YzmZSN9iyhSBJNqw8HAOUL-4RzuM9lQm
+              - img "Applicant Tracking System(ATS)" [ref=e217]
+            - generic [ref=e218]:
+              - generic [ref=e219]: Additional Featured Project
+              - link [ref=e220] [cursor=pointer]:
+                - /url: https://drive.google.com/drive/u/1/folders/1YzmZSN9iyhSBJNqw8HAOUL-4RzuM9lQm
+                - heading "Applicant Tracking System(ATS)" [level=2] [ref=e221]
+              - paragraph [ref=e222]: ATS Evaluation Tool is an AI-powered resume evaluation tool that helps job seekers optimize their resumes for specific job descriptions. It utilizes pre-trained language models and generative AI to provide detailed feedback, identify missing keywords, and suggest improvements to increase the chances of resume shortlisting.
+              - generic [ref=e223]:
+                - link "GitHub" [ref=e224] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10/ATS-Evaluation-Tool
+                - link "Demo" [ref=e229] [cursor=pointer]:
+                  - /url: https://drive.google.com/drive/u/1/folders/1YzmZSN9iyhSBJNqw8HAOUL-4RzuM9lQm
+          - article [ref=e231]:
+            - link [ref=e233] [cursor=pointer]:
+              - /url: https://github.com/ihebakermi10/Email-Agent--Llama3-LangGraph-Groq
+              - img "Email Agent-Llama3,LangGraph and Groq" [ref=e235]
+            - generic [ref=e236]:
+              - generic [ref=e237]: Additional Featured Project
+              - link [ref=e238] [cursor=pointer]:
+                - /url: https://github.com/ihebakermi10/Email-Agent--Llama3-LangGraph-Groq
+                - heading "Email Agent-Llama3,LangGraph and Groq" [level=2] [ref=e239]
+              - paragraph [ref=e240]: This project is an email agent that can categorize, research, draft, analyze, and rewrite emails. It uses a combination of natural language processing (NLP) and web search to understand the content of the email and generate a response.
+              - generic [ref=e241]:
+                - link "GitHub" [ref=e242] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10
+                - link "Demo" [ref=e247] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10/Email-Agent--Llama3-LangGraph-Groq
+          - article [ref=e249]:
+            - link [ref=e251] [cursor=pointer]:
+              - /url: https://drive.google.com/file/d/16eWw47ogACMHF9kjzWHluj4lhQSzbbDB/view?usp=sharing
+              - img "Match Facts Powered by YOLOv8 – Sport Analytics / Real-Time Tracking" [ref=e253]
+            - generic [ref=e254]:
+              - generic [ref=e255]: Featured Project
+              - link [ref=e256] [cursor=pointer]:
+                - /url: https://drive.google.com/file/d/16eWw47ogACMHF9kjzWHluj4lhQSzbbDB/view?usp=sharing
+                - heading "Match Facts Powered by YOLOv8 – Sport Analytics / Real-Time Tracking" [level=2] [ref=e257]
+              - paragraph [ref=e258]: Developed a sports analytics system using YOLOv8, fine-tuned models, and CNNs to detect and track players and the ball, analyze their positions, movements, and speeds, then connect the model's results to an application for real-time tracking and analysis.
+              - generic [ref=e259]:
+                - link "GitHub" [ref=e260] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10/Match-Facts-Powered-by-YOLOV8/tree/main
+                - link "Demo" [ref=e265] [cursor=pointer]:
+                  - /url: https://drive.google.com/file/d/16eWw47ogACMHF9kjzWHluj4lhQSzbbDB/view?usp=sharing
+          - article [ref=e267]:
+            - link [ref=e269] [cursor=pointer]:
+              - /url: https://drive.google.com/file/d/1wSXaoGfvpVTMhiy_ulEEHWWq-TNc8nlx/view?usp=sharing
+              - img "Match Facts Powered by YOLOV8" [ref=e271]
+            - generic [ref=e272]:
+              - generic [ref=e273]: Featured Project
+              - link [ref=e274] [cursor=pointer]:
+                - /url: https://drive.google.com/file/d/1wSXaoGfvpVTMhiy_ulEEHWWq-TNc8nlx/view?usp=sharing
+                - heading "Match Facts Powered by YOLOV8" [level=2] [ref=e275]
+              - paragraph [ref=e276]: This project delves into Tennis player analysis using advanced techniques. It employs YOLO v8 for player detection, Fine-Tuned YOLO for tennis ball detection, and CNNs for extracting court keypoints, built similarly to Amazon Web Services' (AWS).
+              - generic [ref=e277]:
+                - link "GitHub" [ref=e278] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10/Match-Facts-Powered-by-YOLOV8/tree/main
+                - link "Demo" [ref=e283] [cursor=pointer]:
+                  - /url: https://drive.google.com/file/d/1wSXaoGfvpVTMhiy_ulEEHWWq-TNc8nlx/view?usp=sharing
+          - article [ref=e285]:
+            - link [ref=e287] [cursor=pointer]:
+              - /url: https://github.com/ihebakermi10/Object-Detection-Yolov5/tree/main
+              - img "Object Detection Using YOLOv5" [ref=e289]
+            - generic [ref=e290]:
+              - generic [ref=e291]: Additional Featured Project
+              - link [ref=e292] [cursor=pointer]:
+                - /url: https://github.com/ihebakermi10/Object-Detection-Yolov5/tree/main
+                - heading "Object Detection Using YOLOv5" [level=2] [ref=e293]
+              - paragraph [ref=e294]: This project is dedicated to object detection in images and videos using the YOLOv5 model.
+              - generic [ref=e295]:
+                - link "GitHub" [ref=e296] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10
+                - link "Demo" [ref=e301] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10/Object-Detection-Yolov5/tree/main
+          - article [ref=e303]:
+            - link [ref=e305] [cursor=pointer]:
+              - /url: https://github.com/ihebakermi10/From-scratch-transformer-model-translation/
+              - img "Build From Scratch Transformer Model" [ref=e307]
+            - generic [ref=e308]:
+              - generic [ref=e309]: Additional Featured Project
+              - link [ref=e310] [cursor=pointer]:
+                - /url: https://github.com/ihebakermi10/From-scratch-transformer-model-translation/
+                - heading "Build From Scratch Transformer Model" [level=2] [ref=e311]
+              - paragraph [ref=e312]: Development from Scratch of a Multilingual natural language processing Translation Models based on Transformer Architecture .
+              - generic [ref=e313]:
+                - link "GitHub" [ref=e314] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10
+                - link "Demo" [ref=e319] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10/From-scratch-transformer-model-translation/
+          - article [ref=e321]:
+            - link [ref=e323] [cursor=pointer]:
+              - /url: https://drive.google.com/file/d/1BOJp10YXRDI-2YwR4Kgcpk-7ZJqmXdZI/view?usp=sharing
+              - img "Real World Formula1 Analysis" [ref=e325]
+            - generic [ref=e326]:
+              - generic [ref=e327]: Additional Featured Project
+              - link [ref=e328] [cursor=pointer]:
+                - /url: https://drive.google.com/file/d/1BOJp10YXRDI-2YwR4Kgcpk-7ZJqmXdZI/view?usp=sharing
+                - heading "Real World Formula1 Analysis" [level=2] [ref=e329]
+              - paragraph [ref=e330]: Led the implementation of a data engineering solution using Azure Databricks to analyze and report on Formula1 motor racing data
+              - generic [ref=e331]:
+                - link "GitHub" [ref=e332] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10/Real_World_Formula1_Analysis
+                - link "Demo" [ref=e337] [cursor=pointer]:
+                  - /url: https://drive.google.com/file/d/1BOJp10YXRDI-2YwR4Kgcpk-7ZJqmXdZI/view?usp=sharing
+          - article [ref=e339]:
+            - link [ref=e341] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/ihebakermi10/overlay/1706519330556/single-media-viewer/?profileId=ACoAAChQKZwBD9En7PE0qzAJ3Q6akKmzT2ynatM
+              - img "RAG using LLM" [ref=e343]
+            - generic [ref=e344]:
+              - generic [ref=e345]: Additional Featured Project
+              - link [ref=e346] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/ihebakermi10/overlay/1706519330556/single-media-viewer/?profileId=ACoAAChQKZwBD9En7PE0qzAJ3Q6akKmzT2ynatM
+                - heading "RAG using LLM" [level=2] [ref=e347]
+              - paragraph [ref=e348]: I led the development of the 'Talk to Digital Rogue Wave' chatbot, marking a significant advancement in customer communication.
+              - generic [ref=e349]:
+                - link "GitHub" [ref=e350] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10/Chatbot/blob/main/Chatbot_RAG.ipynb
+                - link "Demo" [ref=e355] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/ihebakermi10/overlay/1706519330556/single-media-viewer/?profileId=ACoAAChQKZwBD9En7PE0qzAJ3Q6akKmzT2ynatM
+          - article [ref=e357]:
+            - link [ref=e359] [cursor=pointer]:
+              - /url: https://github.com/ihebakermi10/MLops-Translation-Pipeline
+              - img "Fine tuning pre-trained model helsinki" [ref=e361]
+            - generic [ref=e362]:
+              - generic [ref=e363]: Additional Featured Project
+              - link [ref=e364] [cursor=pointer]:
+                - /url: https://github.com/ihebakermi10/MLops-Translation-Pipeline
+                - heading "Fine tuning pre-trained model helsinki" [level=2] [ref=e365]
+              - paragraph [ref=e366]: This repository contains the code and resources for setting up an MLOps pipeline for a translation model. The project includes fine tuning , evaluation, and deployment steps in repo hugging face with a focus on automation and reproducibility.
+              - generic [ref=e367]:
+                - link "GitHub" [ref=e368] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10
+                - link "Demo" [ref=e373] [cursor=pointer]:
+                  - /url: https://github.com/ihebakermi10/MLops-Translation-Pipeline
+    - generic [ref=e375]:
+      - generic [ref=e376]: 2026 © All Rights Reserved.
+      - generic [ref=e377]: Build with ♡ by Iheb AKERMI
+      - link "Say hello" [ref=e379] [cursor=pointer]:
+        - /url: /
+  - alert [ref=e380]
