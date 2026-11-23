@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[450],{5666:function(n,_,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/components/Footer",function(){return o(783)}])}},function(n){n.O(0,[888,774,179],function(){return n(n.s=5666)}),_N_E=n.O()}]);
