@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="t d">
   <title id="t">Hutchinson Text-to-SQL R1-7B v4: fine-tuning and production serving pipeline</title>
-  <desc id="d">Training lane: dataset, PEFT LoRA supervised fine-tuning, evaluation and MLflow registry. Serving lane: vLLM serving, shadow deployment, A/B test against v3, canary rollout with automatic rollback, and monitored production. Below, the vLLM serve command and a chart of traffic moving from v3 to v4.</desc>
+  <desc id="d">Training lane: dataset, PEFT LoRA supervised fine-tuning, evaluation and MLflow registry. Serving lane: vLLM serving, shadow deployment, A/B test against v3, canary rollout with automatic rollback, and monitored production. Below, the release gates that passed and a chart of traffic moving from v3 to v4.</desc>
   <defs>
     <radialGradient id="glowA" cx="10%" cy="0%" r="70%">
       <stop offset="0" stop-color="#E2CBA4" stop-opacity="0.22"/>
@@ -115,24 +115,24 @@
     </g>
   </g>
 
-  <!-- Terminal -->
-  <g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="18">
+  <!-- Release gates -->
+  <g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="19">
     <rect x="90" y="580" width="850" height="330" rx="24" fill="#141210" stroke="#2E2922" stroke-width="2"/>
-    <circle cx="124" cy="614" r="7" fill="#2E2922"/>
-    <circle cx="148" cy="614" r="7" fill="#2E2922"/>
-    <circle cx="172" cy="614" r="7" fill="#2E2922"/>
-    <text x="908" y="620" fill="#B3A794" font-size="15" text-anchor="end">inference-server</text>
-    <text x="124" y="668" fill="#F2EADB"><tspan fill="#E2CBA4">$</tspan> vllm serve Snowflake/Arctic-Text2SQL-R1-7B \</text>
-    <text x="164" y="698" fill="#F2EADB">--enable-lora --dtype bfloat16 --port 8000 \</text>
-    <text x="164" y="728" fill="#F2EADB">--lora-modules <tspan fill="#E2CBA4">hutchinson-text-to-sql</tspan>=ihebaker10/text2sql-7b-v4-16</text>
-    <text x="124" y="784" fill="#B3A794">› model <tspan fill="#F2EADB">hutchinson-text-to-sql</tspan> ready</text>
-    <text x="600" y="784" fill="#9DB89A">✓</text>
-    <text x="124" y="818" fill="#B3A794">› shadow diff · A/B gate · canary gate</text>
-    <text x="600" y="818" fill="#9DB89A">✓</text>
-    <text x="124" y="852" fill="#B3A794">› rollback armed · Prometheus alerts</text>
-    <text x="600" y="852" fill="#9DB89A">✓</text>
-    <text x="124" y="886" fill="#B3A794">› MLflow tracing on every request</text>
-    <text x="600" y="886" fill="#9DB89A">✓</text>
+    <text x="122" y="626" fill="#F2EADB" font-size="19">release gates</text>
+    <text x="908" y="626" fill="#B3A794" font-size="15" text-anchor="end">v4 · production</text>
+    <g stroke="#2E2922" stroke-width="1.5">
+      <line x1="122" y1="716" x2="908" y2="716"/>
+      <line x1="122" y1="776" x2="908" y2="776"/>
+      <line x1="122" y1="836" x2="908" y2="836"/>
+    </g>
+    <text x="122" y="696" fill="#B3A794">› model <tspan fill="#F2EADB">hutchinson-text-to-sql</tspan> ready</text>
+    <text x="900" y="696" fill="#9DB89A" text-anchor="end">✓</text>
+    <text x="122" y="756" fill="#B3A794">› shadow diff · A/B gate · canary gate</text>
+    <text x="900" y="756" fill="#9DB89A" text-anchor="end">✓</text>
+    <text x="122" y="816" fill="#B3A794">› rollback armed · Prometheus alerts</text>
+    <text x="900" y="816" fill="#9DB89A" text-anchor="end">✓</text>
+    <text x="122" y="876" fill="#B3A794">› MLflow tracing on every request</text>
+    <text x="900" y="876" fill="#9DB89A" text-anchor="end">✓</text>
   </g>
 
   <!-- Traffic shift chart -->
